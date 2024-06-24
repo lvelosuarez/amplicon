@@ -1,0 +1,5 @@
+envs/
+.snakemake
+.ipynb_checkpoints
+Rplots.pdf
+token
