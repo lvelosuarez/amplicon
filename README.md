@@ -23,7 +23,7 @@ Configure the workflow according to your needs via editing the file `config.yaml
  You can use the script `prepare_sample_table.py` for it. The scripts searches for fastq(.gz) files inside a folder (structure). If you have paired end files they should have R1/R2 somewhere in the filename. If might be a good idea to simplify sample names.
 
 ```
-./prepare_sample_table.py path/to/fastq(.gz)files
+./make_sample_table.py path/to/fastq(.gz)files
 ```
 
 The script creates a `samples.tsv` in the *working directory*. Here is an example.
